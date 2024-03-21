@@ -1,0 +1,119 @@
+.background-img{
+    background-image: url('images/background_top.jpg');
+    width: 100%;
+    height: 350px;
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+    background-size: cover;
+    z-index: 1;
+}
+
+.logo{
+    position: absolute;
+    top: 80px;
+    left: calc(50% - 50px);
+    z-index: 2;
+}
+
+.top-body-background{
+    background-color: green;
+}
+
+.bottom-body-background{
+    background-color: white; 
+}
+
+.h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25pt;
+    text-decoration: underline;
+}
+
+.h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+}
+
+.tabs{
+    list-style: none;
+    position: relative;
+    top: 80px; 
+    left: 80px;
+    width: fit-content;
+    height: 400px; 
+}
+
+.join_button{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    z-index: 3;
+    width: 200px;
+    height: 70px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 20pt;
+    border-radius: 20px;
+    transition-duration: 0.2s;
+    font-weight: bold;
+}
+
+.join_button:hover{
+    background-color: green;
+    width: 210px;
+    height: 80px;
+    font-size: 22pt;
+    border-radius: 20px;
+}
+
+.join_button2{
+    position: relative;
+    top: -10px;
+    z-index: 3;
+    width: 200px;
+    height: 70px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 20pt;
+    border-radius: 20px;
+    transition-duration: 0.2s;
+    font-weight: bold;
+}
+
+.join_button2:hover{
+    background-color: green;
+    width: 210px;
+    height: 80px;
+    font-size: 22pt;
+    border-radius: 20px;
+}
+
+.footer{
+    background-image: url(images/PSSfront.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+    height: 300px;
+    width: 100%;
+}
+
+.events{
+    position: relative;
+    left: 410px;
+    bottom: 279px;
+}
+
+.gallery{
+    position: relative;
+    left: 800px;
+    bottom: calc(279px*2);
+}
+
+.projects{
+    position: relative;
+    left: 10px;
+}
+
